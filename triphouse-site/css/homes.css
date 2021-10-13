@@ -1,0 +1,30 @@
+.homes {
+    background: var(--bg-color);
+}
+
+.homes__cards {
+    padding-bottom: 120px;
+}
+
+.homes__card-pic {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.homes__card-name {
+    color: var(--accent-blue);
+    margin-bottom: 24px;
+}
+
+.homes__card-location {
+    color: var(--secondary-text);
+}
+
+.homes__card {
+    max-width: 296px;
+    max-height: 428px;
+}
+
+.homes .arrow {
+    top: 128px;
+}
