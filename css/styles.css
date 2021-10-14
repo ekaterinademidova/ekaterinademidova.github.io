@@ -1,0 +1,68 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Intro styles start */
+
+.intro {
+    min-height: 100vh;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.wrapper {
+    width: 500px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.intro__info {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px black;
+    text-align: center;
+}
+
+.intro__title {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 60px 40px;
+}
+
+.intro__list-title {
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.intro__list {
+    padding: 20px 0 60px 0;
+}
+
+.intro__list li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.intro__list a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro__list a:hover {
+    opacity: 0.6;
+}
+
+.ps {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px black;
+    padding: 10px 15px;
+}
+
+/* Intro styles end */
